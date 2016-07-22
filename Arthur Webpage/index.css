@@ -1,0 +1,50 @@
+body{
+	background-image:url("gif.jpg");
+}
+nav{
+	float:left;
+	z-index:auto;
+	position:fixed;
+	left:0;
+	top:70px;
+	background-color:#ccffff;
+	width:305px;
+	height:230px;
+	border-top-right-radius:40px;
+	border-bottom-right-radius:40px;
+}
+
+img{
+	height:500px;
+	width:700px;
+	margin-left:500px;
+}
+a.countries{
+	margin-left:800px;
+	font-size:20px;
+	text-decoration:none;
+	color:#fff;
+}
+div{
+	color:red;
+}
+p{
+	color:#fff;
+	text-align:center;
+}
+a{
+	font-family:forte;
+	font-size:medium;
+	text-decoration:none;
+	color:blue;
+}
+a:hover{
+	color:#33cc33;
+	font-size:25px;
+}
+h1{
+	text-align:center;
+	color:red;
+	font-size:50px;
+}
+
