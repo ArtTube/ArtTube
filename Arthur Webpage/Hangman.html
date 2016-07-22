@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="hangman.css"/>
 </head>
 <body>
 
 
-<h1>Hangman Game</h1>
-
-<img src="" alt="hangman">
+<button onclick="startGame()">Play Hangman</button>
 
 
 <script>
+function(){
     var words = ["school", "javascript", "window", "star", "notebook", "flower", "chocolate", "icecream"];
     /*Bari @ntrutyun@ kareli e anel patahakan skzbunqov
      ogtagortselov Math.floor(Math.random()*words.length)*/
@@ -84,6 +84,10 @@
     if(points===0){
         alert("You lost, game over. \nMy word was: " + word);
     }
+    
+    
+}
+    
 </script>
 
 </body>
